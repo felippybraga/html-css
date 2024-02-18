@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url('idroid.otf'); format('otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+
+
+body {
+    background-color: #84E1AD;
+    font-family: Segoe UI;
+    text-align: justify;
+    border: 50px
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, #3CD782, #1A5B37);
+    padding: 13px 13px 13px 40px;
+    margin: -10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas+Neue';
+    
+}
+
+p#introdução {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    
+
+}
+
+h2 {
+    color: #1f5336;
+    font-family: idroid;
+    font-size: 2em;
+    font-weight: 50;
+
+    
+}
+
+h3{
+    color: #1f5336;
+    background-image: linear-gradient(to right, rgb(168, 233, 195), white);
+    font-family: idroid;
+    font-weight: 50;
+    padding: 4px
+
+
+}
+
+button {
+    background-color: transparent;
+    color: rgba(210, 248, 225, 0.973);
+    text-align: right;
+    border: 0px;
+    margin: 50px 15px -30px -15px;
+    padding: 10px;
+    border-radius: 5px ;
+    font-family: Segoe UI;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: rgb(168, 233, 195);
+    color: #1A5B37;
+}
+
+section#conteudo {
+    background-color: white;
+    margin: 10px 50px -50px 50px;
+    padding: 15px;
+    
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+
+}
+
+div#video {
+    background-color: #1A5C38;
+    padding: 40px;
+    margin: 50px;
+    border: 500px;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin: -55px 50px 45px 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section#titulo {
+    background-color: #2FA866;
+    color: white;
+    font-weight: bolder;
+    margin: -20px -20px -5px -20px;
+    padding: 7px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article {
+    background-color: #C5EBD6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul{
+    display: inline-block;
+    margin: 0px 50px 0px 01px;
+    padding: 10px 150px 10px 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1A5C38;
+    padding: -10px;
+    margin: -20px;
+    border: 1px
+}
